@@ -32,7 +32,7 @@ const Dog1 = () => <Dog/>
 
 function App() {
   return (
-    <Router>
+    <Router basename="/pet-shop.github.io">
       <Routes>
         {/* صفحه اصلی */}
         <Route 
